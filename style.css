@@ -61,7 +61,7 @@ ul {
 }
 
 .topo ul li a {
-    color: #cf4c00;
+    color: #ff8234;
     padding: 10px 20px;
     font-size: 2.5em;
     text-decoration: none;
@@ -69,7 +69,7 @@ ul {
 }
 
 .topo ul li a:hover {
-    color: #6e2800;
+    color: #94571f;
 }
 
 a#atual {
@@ -94,7 +94,7 @@ h1.principal {
     background-size: cover;
     font-size: 4rem;
     padding: 20px;
-    color: #686868;
+    color: gray;
     font-family: old-english;
     letter-spacing: 2px;
     font-weight: normal;
