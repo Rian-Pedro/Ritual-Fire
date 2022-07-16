@@ -1,0 +1,134 @@
+@font-face {
+    font-family: old-english;
+    src: url('fonts/OldeEnglish.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex-container {
+    display: flex;
+}
+
+header.flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 20px;
+    background-image: url('img/fundo-header.png');
+    background-position: bottom;
+    background-size: cover;
+}
+
+div#nameLogo {
+    width: 75%;
+}
+
+div#nameLogo img {
+    width: 100%;
+}
+
+
+/* -------------- */
+
+nav.topo {
+    margin: 20px 0;
+    width: 50%;
+    background-image: url('img/fundo-nav.jpg');
+    border: 10px double rgba(0, 0, 0, 0.411);
+}
+
+ul {
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.topo ul li a {
+    color: #cf4c00;
+    padding: 10px 20px;
+    font-size: 2.5em;
+    text-decoration: none;
+    font-family: old-english;
+}
+
+.topo ul li a:hover {
+    color: #6e2800;
+}
+
+a#atual {
+    color: #ff7b00;
+    cursor: default;
+}
+
+/* ------------------- */
+
+article {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px 100px 20px;
+    background-color: black;
+}
+
+h1.principal {
+    border: 10px double rgba(0, 0, 0, 0.411);
+    background-image: url('img/fundo-nav.jpg');
+    background-size: cover;
+    font-size: 4rem;
+    padding: 20px;
+    color: #686868;
+    font-family: old-english;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+div.videoPrincipal {
+    width: 75%;
+    margin-top: 20px;
+}
+
+div.videoPrincipal video {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ------------ */
+
+footer {
+    background-color: #002C61;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.footer {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    flex: 1;
+}
+
+div.footer span {
+    color: white;
+    font-size: large;
+}
+
